@@ -1,0 +1,36 @@
+.main-head
+	width: 100%
+	height: 500px
+	background-image: url('../img/bg.jpg')
+	background-position: top
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative
+	display: flex
+	align-items: center
+	justify-content: center
+	&::before
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background-color: $main
+		opacity: 0.45
+	&__info
+		margin-top: 50px
+		z-index: 2
+		text-align: center
+		h1
+			color: $main
+		p
+			color: $main
+		a 
+			display: block
+			margin-top: 25px
+			background-color: $accent
+			color: $main
+			text-decoration: none
+			padding: 10px 20px
+			border-radius: 10px
