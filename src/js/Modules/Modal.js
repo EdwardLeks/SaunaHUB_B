@@ -49,28 +49,28 @@ class Modal {
 				<h1>Renting</h1>
 				<form action="" class="renting-form" id="renting-form">
 					<div class="mb-3 double-input">
-						<input type="text" id="renting-name-input" placeholder="Name" required>
-						<input type="text" id="renting-lastname-input" placeholder="Lastname" required>
+						<input type="text" id="renting-name-input" placeholder="Name">
+						<input type="text" id="renting-lastname-input" placeholder="Lastname">
 					</div>
 					<div class="mb-3">
-						<input type="email" id="renting-email-input" placeholder="E-Mail" required>
+						<input type="email" id="renting-email-input" placeholder="E-Mail">
 					</div>
 					<div class="mb-3">
-						<input type="phone" id="renting-phone-input" placeholder="Phone Number" required>
+						<input type="phone" id="renting-phone-input" placeholder="Phone Number">
 					</div>
 					<div class="mb-3">
-						<input type="text" id="renting-address-input" placeholder="Address" required>
+						<input type="text" id="renting-address-input" placeholder="Address">
 					</div>
 					<div class="mb-3 double-input">
-						<input type="date" id="renting-startdate-input" placeholder="Start Date" required>
-						<input type="date" id="renting-enddate-input" placeholder="End Date" required>
+						<input type="date" id="renting-startdate-input" placeholder="Start Date">
+						<input type="date" id="renting-enddate-input" placeholder="End Date">
 					</div>
 					<div class="mb-3">
-						<input type="number" id="renting-bankcard-input" placeholder="Card number" required>
+						<input type="number" id="renting-bankcard-input" placeholder="Card number">
 					</div>
 					<div class="mb-3 double-input">
-						<input type="number" id="renting-expdate-input" placeholder="Date of expiry" required>
-						<input type="number" id="renting-cvc-input" placeholder="CVC" >
+						<input type="number" id="renting-expdate-input" placeholder="Date of expiry">
+						<input type="number" id="renting-cvc-input" placeholder="CVC">
 					</div>
 					<input class="rentsauna" type="submit" placeholder="Rent Sauna"></input>
 				</form>
